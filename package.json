@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-test-package1",
+  "dependencies": {
+    "glob": "3.2.1",
+    "underscore": "git://github.com/documentcloud/underscore.git"
+  },
+  "main": "main1.js",
+  "repository": {"type": "git", "url": "git://github.com/sqs/nodejs-test-package1.git"}
+}
