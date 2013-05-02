@@ -1,5 +1,6 @@
 {
   "name": "nodejs-test-package1",
+  "version": "0.0.1",
   "dependencies": {
     "glob": "3.2.1",
     "underscore": "git://github.com/documentcloud/underscore.git"
