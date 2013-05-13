@@ -1,9 +1,9 @@
-var _ = require("underscore"), glob = require("glob");
+var fs = require("fs");
 
 // Dummy test function that uses underscore.
 exports.Foo = function(s) {
-  glob.sync;
-  return s + " Length=" + _.size(s);
+  fs.existsSync("asdf");
+  return s + " Length=" + s.length;
 };
 
 console.log(exports.Foo("Hello!"));
